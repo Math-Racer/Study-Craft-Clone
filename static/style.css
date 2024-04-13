@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #71baed;  /* Light blue background */
+}
+
+.container {
+    display: flex;
+    height: 100vh;  /* Set container to full viewport height */
+    align-items: center;
+}
+
+.text-content {
+    flex: 1;  /* Text content takes up most of the space */
+    padding: 50px;
+    text-align: center;
+}
+
+.text-content h1 {
+    font-size: 3em;  /* Adjust heading size */
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 1.2em;  /* Adjust paragraph size */
+    margin-bottom: 30px;
+}
+
+.image-container {
+    flex: 0 0 40%;  /* Fixed width for image container */
+}
+
+.image-container img {
+    width: 100%;  /* Image fills the container width */
+    height: auto;  /* Maintain image aspect ratio */
+}
+
+/* Styles for input.html */
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f9ff;  /* Light background for header */
+}
+
+.logo {
+    width: 100px;  /* Adjust logo size */
+    margin-right: 20px;
+}
+
+.form-container {
+    max-width: 500px;  /* Set a maximum width for the form */
+    margin: 0 auto;  /* Center the form horizontally */
+    padding: 30px;
+    background-color: #fff;  /* White background for the form */
+    border-radius: 5px;  /* Rounded corners for the form */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* Subtle shadow effect */
+}
+
+.input-field {
+    width: 100%;  /* Make input fields full width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.radio-group {
+    margin-bottom: 20px;
+}
+
+.radio-group label {
+    display: block;  /* Display radio button labels on separate lines */
+    margin-bottom: 5px;
+}
+
+/* Add these styles to your existing styles.css */
+
+.quiz-container {
+    max-width: 800px;  /* Set a maximum width for the quiz container */
+    margin: 0 auto;  /* Center the container horizontally */
+    padding: 30px;
+    background-color: #f5f5f5;  /* Light background color */
+    border-radius: 5px;  /* Rounded corners for the container */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* Subtle shadow effect */
+}
+
+.question {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;  /* Add a separator line between questions */
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;  /* Adjust heading size */
+    margin-bottom: 5px;
+}
+
+.answer-options {
+    list-style: none;  /* Remove default bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+.answer-options li {
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    vertical-align: middle;  /* Align radio buttons with labels */
+}
+
+label {
+    cursor: pointer;  /* Make labels clickable for better user experience */
+}

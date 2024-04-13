@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Studycraft</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">  </head>
+<body>
+    <div class="container">
+        <div class="text-content">
+            <h1>Welcome to Studycraft!</h1>
+            <p>Find a custom Learning Path for you!</p>
+            <a href="{{ url_for('user_input') }}">Start a Quiz</a>
+        </div>
+        <div class="image-container">
+            <img src="{{ url_for('static', filename='home.jpg') }}" alt="Studycraft Image">
+        </div>
+    </div>
+</body>
+</html>

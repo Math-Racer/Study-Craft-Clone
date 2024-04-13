@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Studycraft - Input</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header class="header">
+        <img src="{{ url_for('static', filename='logo.jpg') }}" alt="Studycraft Logo" class="logo">
+        <h1>Choose a subject and discover a Learning path!</h1>
+    </header>
+    <div class="form-container">
+        {% if error %}
+            <p style="color: red;">{{ error }}</p>
+        {% endif %}
+        <form action="{{ url_for('user_input') }}" method="post">
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required class="input-field"><br>
+            <label for="days">Study Duration (days):</label>
+            <input type="number" id="days" name="days" min="1" required class="input-field"><br>
+            <legend>What is your current goal?</legend>
+            <div class="radio-group">
+                <input type="radio" id="goal1" name="goal" value="promotion">
+                <label for="goal1"> 1. I want to get a promotion</label><br>
+                <input type="radio" id="goal2" name="goal" value="exam" checked>
+                <label for="goal2"> 2. I want to prepare for my exam (default selected)</label><br>
+                <input type="radio" id="goal3" name="goal" value="sideproject">
+                <label for="goal3"> 3. I want to create a side-project</label><br>
+                <input type="radio" id="goal4" name="goal" value="learning">
+                <label for="goal4"> 4. I enjoy learning new topics and challenging myself cognitively</label><br>
+                <input type="radio" id="goal5" name="goal" value="career_switch">
+                <label for="goal5"> 5. I want to switch my career</label><br>
+            </div>
+            <button type="submit">Start Quiz</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Results</title>
+</head>
+<body>
+  <h1>Quiz Results</h1>
+  <p>Your score: {{ score }} out of 100</p>
+  <ul>
+    {% for question, answer in questions.items() %}
+      <li>{{ question }}: {{ answer }}</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
