@@ -2,5 +2,6 @@ The backend of our web application is built using python flask. We use langchain
 
 
 <iframe width="420" height="315" src="https://youtu.be/WZwJbvHfC_M"></iframe>
+https://youtu.be/WZwJbvHfC_M
 
-
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=WZwJbvHfC_M)
