@@ -5,3 +5,7 @@ The backend of our web application is built using python flask. The app relies o
 
 https://github.com/Math-Racer/Study_Craft/assets/123105406/a9d9836a-5181-4df8-81a7-f9b7f3d8f926
 
+
+
+This Repository is my submission to the Guvi TNcpl Hackathon that I partcipated with my team mate. You can find the details for it in below LinkedIn iframe. I am gonna improve this project in a seperate project repo. 
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7186048747674447873" height="607" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
