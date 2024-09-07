@@ -2,7 +2,7 @@ def get_quiz(days, subject, goal):
 
     import openai
     import markdown
-    client = openai.OpenAI(api_key=SECRETKEY)
+    client = openai.OpenAI(api_key=SECRET KEY)
     str1 = "You are a teacher who is tasked with creating student assessment to evaluate the knowledge of the student in the subject:" + subject
     template = """You have decided to give 5 multiple choice questions on this topic/subject. These questions must be of conceptual type. 
 
